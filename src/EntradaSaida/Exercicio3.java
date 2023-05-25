@@ -1,4 +1,4 @@
-package Projetinho;
+package EntradaSaida;
 import java.util.Scanner;
 public class Exercicio3 {
 
