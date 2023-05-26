@@ -38,7 +38,7 @@ public class Lista2Exerc2 {
 			break;
 		case 6:
 			novoSalario=salario+(0.08f*salario);
-			System.out.println ("Olá, Estoquista, "+colaborador+"! seu novo salário é de: R$"+novoSalario);
+			System.out.println ("Olá, Técnico(a), "+colaborador+"! seu novo salário é de: R$"+novoSalario);
 			break;
 		}
 	}
