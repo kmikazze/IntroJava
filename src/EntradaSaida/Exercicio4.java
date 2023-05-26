@@ -16,7 +16,7 @@ public class Exercicio4 {
 		System.out.println("Digite o numero 4: ");
 		n4 = leia.nextFloat();
 		calculo = (n1*n2)-(n3*n4);
-		System.out.println("Essa é a diferença entre os números do primeiro boco: "+calculo);
+		System.out.println("Essa é a diferença entre os números do primeiro bloco: "+calculo);
 	}
 
 }
