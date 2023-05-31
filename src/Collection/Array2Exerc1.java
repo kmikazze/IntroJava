@@ -7,7 +7,6 @@ public class Array2Exerc1 {
 
 	public static void main(String[] args) {
 		Set<Integer> setNumeros = new HashSet<Integer>();
-		Iterator<Integer>isetNumeros = setNumeros.iterator();
 		Integer num = Integer.valueOf(10);
 		Scanner leia = new Scanner(System.in);
 		
@@ -16,8 +15,8 @@ public class Array2Exerc1 {
 			num=leia.nextInt();
 			setNumeros.add(num);
 		}
-		System.out.println("\nLista de dados do Set: "+setNumeros);
-		
+		System.out.println("\nLista de dados do Set: ");
+		Iterator<Integer>isetNumeros = setNumeros.iterator();
 		while(isetNumeros.hasNext()) {
 			System.out.println(isetNumeros.next());
 		}
