@@ -28,8 +28,10 @@ public class PilhaExercicio {
 			}else if(num==3) {
 				System.out.println(pilha.pop());
 				System.out.println("\nLivro removido com sucesso!");
+			}else {
+				System.out.println("\nOpção inválida!");
 			}
-			System.out.print("\nDigite uma opção: ");
+			System.out.print("\nEscolha uma opção: ");
 			num=leia.nextInt();
 		}
 		System.out.println("O programa foi finalizado!");
